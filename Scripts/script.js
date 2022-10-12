@@ -23,10 +23,10 @@ $(document.body).on('click', function (e) {
 
     document.getElementsByClassName("content").backgroundColor = color
     //tambien cambiamos el titulo y botones
-    document.getElementsByTagName('h1')[0].style.color = color
-    document.getElementsByTagName('button')[0].style.backgroundColor = color
-    document.getElementsByTagName('button')[1].style.backgroundColor = color
-  }
+//     document.getElementsByTagName('h1')[0].style.color = color
+//     document.getElementsByTagName('button')[0].style.backgroundColor = color
+//     document.getElementsByTagName('button')[1].style.backgroundColor = color
+   }
 
 
 
