@@ -1,25 +1,20 @@
 //cambiar background color
 $(document.body).on('click', function (e) {
     //si pulsamos en body pero no en hijos
-    if (e.target == this) {
+   if (e.target == this) {
       cambiarColor()
     }
   })
 
-  $(document.body).on('touchend', function (e) {
-    //si pulsamos en body pero no en hijos
-    if (e.target == this) {
-      cambiarColor()
-    }
-  })
-  
+  var el = document.getElementsByTagName("body")[0];
+  el.addEventListener("touchstart", cambiarColor, false);
 
   function cambiarColor() {
     //generamos un color hexadecimal aleatorio
     let simbolos, color
     simbolos = '0123456789ABCDEF'
     color = '#'
-  
+
     for (let i = 0; i < 6; i++) {
       color = color + simbolos[Math.floor(Math.random() * 16)]
     }
@@ -34,5 +29,4 @@ $(document.body).on('click', function (e) {
   }
 
 
-  
-  
+
