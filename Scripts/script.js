@@ -2,7 +2,7 @@
 $(document.body).on('click', function (e) {
     //si pulsamos en body pero no en hijos
     if (e.target != e.previousSibling) {
-      //cambiarColor()
+      cambiarColor()
      }
   })
 
