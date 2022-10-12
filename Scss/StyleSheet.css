@@ -1,4 +1,4 @@
-﻿.content {
+.content {
   background-color: #b9935a;
 }
 
@@ -10,8 +10,13 @@
 
 .logo-big {
   display: block;
-  vertical-align: middle;
   max-width: 803px;
+  margin: auto;
+}
+
+.imgnormalizada img {
+  width: auto;
+  max-height: 600px;
   margin: auto;
 }
 
@@ -21,8 +26,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-
   .col {
     flex: 1;
   }
-}
+}/*# sourceMappingURL=StyleSheet.css.map */

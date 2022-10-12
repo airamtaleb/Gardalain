@@ -1,8 +1,9 @@
-﻿@import "variables";
+﻿@import "Variables";
 
 
 .content {
     background-color: #b9935a;
+    //background-color: #5ab972;
 }
 
 
@@ -16,10 +17,19 @@
 
 .logo-big {
     display: block;
-    vertical-align: middle;
     max-width: 803px;
     margin: auto;
 }
+
+//.carousel, .carousel-inner > .carousel-item > img {
+ //   max-height: 700px;
+  //}
+
+  .imgnormalizada img {
+    width: auto;
+    max-height: 600px;
+    margin: auto;
+  }
 
 @media screen and (min-width: 980px) {
     .row {
@@ -32,4 +42,6 @@
         flex: 1;
     }
 }
+
+
 
