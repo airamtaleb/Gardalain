@@ -1,11 +1,13 @@
 //cambiar background color
 $(document.body).on('click', function (e) {
     //si pulsamos en body pero no en hijos
-   if (e.target == this) {
+//    if (e.target == this) {
       cambiarColor()
-    }
+//     }
   })
 
+ document.getElementsByTagName("body").add
+  
 //   var el = document.getElementsByTagName("body")[0];
 //   el.addEventListener("touchstart", cambiarColor, false);
 
