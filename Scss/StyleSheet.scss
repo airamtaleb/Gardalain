@@ -1,0 +1,35 @@
+﻿@import "variables";
+
+
+.content {
+    background-color: #b9935a;
+}
+
+
+
+
+.navbar-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+}
+
+.logo-big {
+    display: block;
+    vertical-align: middle;
+    max-width: 803px;
+    margin: auto;
+}
+
+@media screen and (min-width: 980px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex: 1;
+    }
+}
+
