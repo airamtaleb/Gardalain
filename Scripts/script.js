@@ -6,8 +6,8 @@ $(document.body).on('click', function (e) {
     }
   })
 
-  var el = document.getElementsByTagName("body")[0];
-  el.addEventListener("touchstart", cambiarColor, false);
+//   var el = document.getElementsByTagName("body")[0];
+//   el.addEventListener("touchstart", cambiarColor, false);
 
   function cambiarColor() {
     //generamos un color hexadecimal aleatorio
