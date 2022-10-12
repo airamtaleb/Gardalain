@@ -1,10 +1,19 @@
-//10- cambiar background color
+//cambiar background color
 $(document.body).on('click', function (e) {
     //si pulsamos en body pero no en hijos
     if (e.target == this) {
       cambiarColor()
     }
   })
+
+  $(document.body).on('touchend', function (e) {
+    //si pulsamos en body pero no en hijos
+    if (e.target == this) {
+      cambiarColor()
+    }
+  })
+  
+
   function cambiarColor() {
     //generamos un color hexadecimal aleatorio
     let simbolos, color
@@ -23,4 +32,7 @@ $(document.body).on('click', function (e) {
     document.getElementsByTagName('button')[0].style.backgroundColor = color
     document.getElementsByTagName('button')[1].style.backgroundColor = color
   }
+
+
+  
   
