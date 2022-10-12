@@ -7,7 +7,11 @@
 }
 
 
+p , a{
 
+    //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .navbar-logo {
     display: inline-block;
@@ -19,6 +23,9 @@
     display: block;
     max-width: 803px;
     margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
 //.carousel, .carousel-inner > .carousel-item > img {
